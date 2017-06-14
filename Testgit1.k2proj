@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Testgit1</Name>
+  <CreateDate>2017-06-14T14:25:22.0343043+03:00</CreateDate>
+  <CreateUserId />
+  <ProductVersion>3.3.0.3</ProductVersion>
+  <UseTableObject>true</UseTableObject>
+  <ProjectItemPropList />
+  <ProjectItemsCategoryList />
+  <Description />
+</Project>
