@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TablePopulationObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>query_YP_PRODUCT_TRN_FAB</ID>
+  <PopulationObjectName>query_YP_PRODUCT_TRN_FAB</PopulationObjectName>
+  <TableName>YP_PRODUCT_TRN_FAB</TableName>
+  <RootItemID>query_query_YP_PRODUCT_TRN_FAB</RootItemID>
+  <LazyDataUpdate syncMethod="Inherited" performEvery="1.00:00:00">
+    <TruncateBeforeSync>false</TruncateBeforeSync>
+  </LazyDataUpdate>
+  <SimpleObject>true</SimpleObject>
+  <InputArguments>
+    <Arg name="OLD_PRODUCT_CODE" id="queryCol_0" dataType="Text" index="0" />
+    <Arg name="NEW_PRODUCT_CODE" id="queryCol_1" dataType="Text" index="1" />
+  </InputArguments>
+  <ItemsList>
+    <Item xsi:type="DBQueryDataSave" id="query_query_YP_PRODUCT_TRN_FAB" name="query_YP_PRODUCT_TRN_FAB" nodeOrder="0" module="DBQuery" mapObjectModule="DBQuery" connName="ORA_TEST">
+      <OutputsList>
+        <Output xsi:type="DBQueryDataSaveColumn" id="queryCol_0" name="OLD_PRODUCT_CODE" dataType="Text" index="0" />
+        <Output xsi:type="DBQueryDataSaveColumn" id="queryCol_1" name="NEW_PRODUCT_CODE" dataType="Text" index="1" />
+      </OutputsList>
+      <SQL><![CDATA[SELECT * FROM YP_PRODUCT_TRN_FAB]]></SQL>
+    </Item>
+  </ItemsList>
+  <LinksList>
+    <Link partId="8" fromNodeOrder="0" fromItemID="query_query_YP_PRODUCT_TRN_FAB" fromColID="queryCol_0" toItemID="tbl_YP_PRODUCT_TRN_FAB" toColID="tblCol_ad8c1cad17d54b6180dc26b7ea0201bf" />
+    <Link partId="9" fromNodeOrder="0" fromItemID="query_query_YP_PRODUCT_TRN_FAB" fromColID="queryCol_1" toItemID="tbl_YP_PRODUCT_TRN_FAB" toColID="tblCol_4ed074e4f3444d4a9428ab88d9ea9000" />
+  </LinksList>
+  <ModeKeyColumnIDs />
+</TablePopulationObject>

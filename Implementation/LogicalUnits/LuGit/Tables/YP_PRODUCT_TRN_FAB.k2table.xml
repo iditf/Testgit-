@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>YP_PRODUCT_TRN_FAB</Name>
+  <ID>tbl_YP_PRODUCT_TRN_FAB</ID>
+  <LazyDataUpdate syncMethod="Inherited" performEvery="1.00:00:00">
+    <TruncateBeforeSync>true</TruncateBeforeSync>
+  </LazyDataUpdate>
+  <Columns>
+    <Column name="OLD_PRODUCT_CODE" id="tblCol_ad8c1cad17d54b6180dc26b7ea0201bf" index="0" datatype="Text" mandatory="true" />
+    <Column name="NEW_PRODUCT_CODE" id="tblCol_4ed074e4f3444d4a9428ab88d9ea9000" index="1" datatype="Text" />
+  </Columns>
+  <IndexesList />
+  <EnrichmentList />
+</TableObject>
